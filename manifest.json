@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YTM Export",
+  "description": "Youtube Music Playlist Exporter",
+  "version": "1.0",
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": "128.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/playlist*"],
+      "js": ["src/playlist_content_script.js"]
+    }
+  ]
+}

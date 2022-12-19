@@ -1,0 +1,8 @@
+{
+  "name": "chrome-ytm-export",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "chrome-types": "^0.1.155"
+  }
+}
